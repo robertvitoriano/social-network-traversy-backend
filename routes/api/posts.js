@@ -7,3 +7,4 @@ const Router = express.Router();
 app.get("/", (req, res) => {
   res.send("Posts Route");
 });
+
