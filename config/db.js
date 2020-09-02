@@ -10,6 +10,7 @@ const connectDB = async ()=>{
           useNewUrlParser: true,
           useUnifiedTopology: true,
         });
+        console.log("I'm connected do mongoDB");
     }catch(e){
          console.log(e);
          //Exit process with failure
