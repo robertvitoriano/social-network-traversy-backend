@@ -6,6 +6,9 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 //Connect Database
 connectDB();
+// Using exppress Parser
+app.use(express.json({extended:false}));
+
 //using Router
 app.use(Routes)
 
